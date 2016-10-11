@@ -1,0 +1,16 @@
+.block-title span{
+    border-left: 5px solid #c42c2c;
+    padding-left: 10px;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 38px;
+    position: relative;
+    text-transform: uppercase;
+    border-bottom: 1px dashed #bdbdbd;
+}
+.block-title {
+    margin-top: 10px;
+}
+.block{
+    margin-top: 10px;
+}
