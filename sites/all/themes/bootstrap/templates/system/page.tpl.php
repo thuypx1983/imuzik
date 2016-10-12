@@ -73,6 +73,13 @@
  * @ingroup templates
  */
 ?>
+<div id="header-top">
+    <div class="container">
+       <div class="row">
+           <img style="width: 100%" src="http://www.balancinglifestylesmag.com/images/banner.jpg">
+       </div>
+    </div>
+</div>
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
   <div class="<?php print $container_class; ?>">
     <div class="navbar-header">
@@ -140,7 +147,7 @@
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
       <?php if (!empty($title)): ?>
-        <h1 class="page-header"><?php print $title; ?></h1>
+        <h1 class="page-header"><span><?php print $title; ?></span></h1>
       <?php endif; ?>
       <?php print render($title_suffix); ?>
       <?php print $messages; ?>
