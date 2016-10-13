@@ -103,6 +103,52 @@
 .html a{
     color: #000000;
 }
+#block-quicktabs-b-ng-x-p-h-ng footer{
+    display: none;
+}
+#block-quicktabs-b-ng-x-p-h-ng h2{
+    font-size: 15px;
+    font-weight:bold;
+    padding: 0px ;
+    margin: 0px;
+}
+#block-quicktabs-b-ng-x-p-h-ng h2 .index{
+    color:#E95420;
+}
+#block-views-video-block-1 .views-field-title{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.view-song-hot .views-field-title .field-content a,
+.view-audio .views-field-title .field-content a,
+.view-video-host .views-field-title .field-content a,
+.view-allbum-host .views-field-title .field-content a
+{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.view-video-host .views-row ,
+.view-allbum-host .views-row{
+    margin-bottom: 15px;
+}
+.view-video-host .views-field-title ,
+.view-allbum-host .views-field-title{
+    padding: 5px 0px 0px 0px;
+}
+
+#footer-top .block-title span,
+#footer-top .menu li a
+{
+    color: #ffffff;
+}
+#footer-top {
+    background: #333333 url("../images/imuzik_40.png") repeat-x scroll center bottom;
+    float: left;
+    margin-top: 15px;
+    width: 100%;
+}
 /*
 Responsive view
 */

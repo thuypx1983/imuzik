@@ -3,7 +3,7 @@ description = Built to use Bootstrap, a sleek, intuitive, and powerful front-end
 core = 7.x
 
 stylesheets[all][] = css/custom_style.css
-
+scripts[] = 'js/scripts.js'
 ;;;;;;;;;;;;;;;;;;;;;
 ;; SimplyTest.me
 ;;;;;;;;;;;;;;;;;;;;;
@@ -25,6 +25,10 @@ regions[sidebar_second] = 'Secondary'
 regions[footer]         = 'Footer'
 regions[page_top]       = 'Page top'
 regions[page_bottom]    = 'Page bottom'
+regions[footer_top_1]    = 'footer_top_1'
+regions[footer_top_2]    = 'footer_top_2'
+regions[footer_top_3]    = 'footer_top_3'
+regions[footer_top_4]    = 'footer_top_4'
 
 
 ;;;;;;;;;;;;;;;;;;;;;

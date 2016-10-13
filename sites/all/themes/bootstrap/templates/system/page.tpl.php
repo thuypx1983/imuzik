@@ -171,7 +171,17 @@
 
   </div>
 </div>
-
+<div id="footer-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-lg-3"><?php print render($page['footer_top_1']); ?></div>
+            <div class="col-md-3 col-lg-3"><?php print render($page['footer_top_2']); ?></div>
+            <div class="col-md-3 col-lg-3"><?php print render($page['footer_top_3']); ?></div>
+            <div class="col-md-3 col-lg-3"><?php print render($page['footer_top_4']); ?></div>
+        </div>
+    </div>
+</div>
+<div class="clearfix"></div>
 <?php if (!empty($page['footer'])): ?>
   <footer class="footer <?php print $container_class; ?>">
     <?php print render($page['footer']); ?>
