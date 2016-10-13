@@ -2636,6 +2636,13 @@ function template_preprocess_html(&$variables) {
  * @see page.tpl.php
  */
 function template_preprocess_page(&$variables) {
+
+   #disable system_main on front page
+    if ($variables['is_front']) {
+        $variables['title'] = '';
+        unset($variables['page']['content']['system_main']);
+    }
+
   // Move some variables to the top level for themer convenience and template cleanliness.
   $variables['show_messages'] = $variables['page']['#show_messages'];
 

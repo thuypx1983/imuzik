@@ -79,7 +79,9 @@
 .html .page-header{
     margin: 10px 0 20px;
 }
-
+.views-field-field-singler a{
+    color: #333333;
+}
 /*
 Responsive view
 */
@@ -87,4 +89,7 @@ Responsive view
     .page-taxonomy .audio-action .views-field.views-field-field-file{
         display: none;
     }
+}
+.html a{
+    color: #000000;
 }
